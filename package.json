@@ -27,8 +27,14 @@
     "smee-client": "^1.0.1"
   },
   "lint-staged": {
-    "*.js": ["prettier-standard", "git add"],
-    "*.json": ["prettier --write", "git add"]
+    "*.js": [
+      "prettier-standard",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "jest": {
     "testRegex": "\\.test\\.js$"
